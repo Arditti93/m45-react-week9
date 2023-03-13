@@ -2,7 +2,9 @@ import { useState } from "react";
 import "./AddUser.css";
 
 import { addUser } from "../../utils";
+// Import addUser from our utils folder.
 
+// user and setUser passed as props from the parent userWrapper component
 const AddUser = ({ user, setUser }) => {
   const [username, setUsername] = useState();
   const [email, setEmail] = useState();
